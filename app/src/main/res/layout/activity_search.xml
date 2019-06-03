@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_top">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/titlebar_menu_selector"
+                android:id="@+id/title_bar_left_menu"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Search"
+                android:textSize="24sp"
+                android:textColor="#999999"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/titlebar_menu_selector"
+                android:id="@+id/title_bar_right_menu"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"/>
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ra" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text1shape"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="10dp"
+                        android:text="f"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/search1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/text1shape"
+                        android:gravity="right"
+                        android:text="@string/sub"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignBottom="@+id/cardView"
+                    android:layout_alignLeft="@+id/editText"
+                    android:layout_alignStart="@+id/editText"
+                    android:layout_marginLeft="8dp"
+                    android:background="#11000000"
+                    android:inputType="text"
+                    android:paddingRight="15dp"
+                    android:textDirection="rtl" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text3shape"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="10dp"
+                        android:text="f"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/search3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/text3shape"
+                        android:gravity="right"
+                        android:text="@string/sub1"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+
+                    <ImageButton
+                        android:id="@+id/Musical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="82dp"
+                        android:background="@drawable/sortdown" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/TextMusical"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:background="#11000000"
+                    android:inputType="text"
+                    android:paddingRight="15dp"
+                    android:paddingTop="10dp"
+                    android:textDirection="rtl" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text2shape"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="10dp"
+                        android:text="f"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/search2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/text2shape"
+                        android:gravity="right"
+                        android:text="@string/sub2"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+
+                    <ImageButton
+                        android:id="@+id/Songs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="82dp"
+                        android:background="@drawable/sortdown" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/TextSongs"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignBottom="@+id/cardView"
+                    android:layout_alignLeft="@+id/editText"
+                    android:layout_alignStart="@+id/editText"
+                    android:layout_marginLeft="8dp"
+                    android:background="#11000000"
+                    android:inputType="text"
+                    android:paddingRight="15dp"
+                    android:textDirection="rtl" />
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text4shape"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="10dp"
+                        android:text="f"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/search4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/text4shape"
+                        android:gravity="right"
+                        android:text="@string/sub3"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="#11000000"
+                    android:inputType="text"
+                    android:paddingRight="15dp"
+                    android:textDirection="rtl" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text5shape"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="10dp"
+                        android:text="f"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/search5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/text5shape"
+                        android:gravity="right"
+                        android:text="@string/sub4"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="10dp"/>
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="#11000000"
+                    android:inputType="text"
+                    android:paddingRight="15dp"
+                    android:textDirection="rtl" />
+
+                <Button
+                    android:id="@+id/btn_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/border2"
+                    android:text="بحــث"
+                    android:textColor="@color/colorPrimaryText" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

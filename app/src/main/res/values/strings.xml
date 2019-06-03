@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">SongsBank</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name2" id="rr">Songs Bank</string>
+    <string name="recent_news">من نحن؟</string>
+    <string name="in_news">Da Nang International Fireworks Festival 2017Update: Dec 08, 2016 (TITC) - Da Nang International Fireworks Festival 2017 (DIFF 2017) with the theme “Shining Marble Mountains” will take place for two months, from 29 April to 24 June 2017 with the aim to Da Nang become a unique cultural festival tourism space. </string>
+    <string name="publish_date">2017-04-30 12:13:14</string>
+    <string name="na2">.com</string>
+    <string name="pass">Forget Password</string>
+
+
+    <string-array name="Lan">
+        <item>Language</item>
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+    <string-array name="No">
+        <item>Notification/Hour</item>
+        <item>3H</item>
+        <item>6H</item>
+    </string-array>
+
+
+    <string name="song">إذا أردت أن تقترح ترنيمة من فضلك أكتب  أسم الترنيمة وأى ملاحظات أخرى .</string>
+    <string name="song2">إذا أردت أن تتواصل معنا فذلك عن طريق :-</string>
+
+
+    <string name="text1">مجموعة من الخدام العاملين في حقل التسبيح والعبادة من خلفيات ومراحل عمريه مختلفة، جمعتنا أشواقنا للخدمة لنتحد معاً لنقدم خدمة متخصصة لدعم قادة التسبيح والعبادة في كنائسنا العربيه روحياً وفنياً من خلال مجموعة من الخدمات التي تغطي كافة إحتياجات قائد التسبيح الروحية والعملية نقدمها مجاناً لكل أعضاء الموقع.</string>
+    <string name="text2">رؤيتنا...</string>
+    <string name="text2_1">أن " الأَرْضَ تَمْتَلِئُ مِنْ مَعْرِفَةِ مَجْدِ الرَّبِّ كَمَا تُغَطِّي الْمِيَاهُ الْبَحْرَ " ( حب 2:14 ) .. شوق قلوبنا أن : " تَجْثُوَ بِاسْمِ يَسُوعَ كُلُّ رُكْبَةٍ مِمَّنْ فِي السَّمَاءِ وَمَنْ عَلَى الأَرْضِ وَمَنْ تَحْتَ الأَرْضِ، " ( في 2 : 10 ) .. ويقيننا أننا سنرى هذه الرؤيا تتحقق في هذا الجيل.</string>
+
+    <string name="text3">هدفنا...</string>
+    <string name="text3_1">تشجيع القائمين على خدمة قيادة التسبيح والعبادة في الكنائس المسيحية ( فرق أو أفراد ) على قيادة شعب الرب في تقديم عبادة حية مشبعة لقلب الآب ، من خلال تقديم دورات تدريبية تساعدهم على تطوير رؤيتهم وأسلوب خدمتهم، وأيضاً توفير مجموعة من الأدوات والوسائل التي تمكنهم من تقديم خدمة أفضل لمجد إسم يسوع.</string>
+    <string name="text4">بنك الترانيم...</string>
+    <string name="text4_1">قاعدة بيانات ضخمة تضم كل ما تصل إليه أيدينا من ترانيم تصلح للترنيم الجماعي في الاجتماعات مع إمكانية البحث والفرز طبقاً لعدد من المعايير تتطابق مع الاحتياجات العملية لقادة التسبيح، ويمكن استخدام أكثر من معيار للفرز والبحث في نفس الوقت، كما يمكن لأعضاء الموقع حفظ نتائج البحث في تقارير منسقة بطريقة تشجع قائد التسبيح على تحضير فترات العبادة بطريقة أكثر إحترافية.</string>
+    <string name="son">ياللى مت بدالى </string>
+    <string name="song_containt">
+        ياللى مت بدالى وشايل كل احمالى
+فى السما تشفع فيا
+عمرى ضاع واشتريته قلبى تاه ولقيته
+وفتحت لى عينيا
+
+( ق ) يا الهى أنا قلبى يسجد ليك
+يا الهى أنا قلبى يخضع ليك
+يا حمل مذبوح عنى .
+ليك المجد والكرامة والبهاء ليك علامة
+سلطانك بيحررنى
+ليك القوة والجلال م البشر ابرع جمال
+نعمتك بتغيرنى
+    </string>
+
+    <string name="sub">اسم الترنيمة</string>
+    <string name="sub1">المفاتيح الموسيقية</string>
+    <string name="sub2">موضوع الترنيمة</string>
+    <string name="sub3">اَيات كتابية</string>
+    <string name="sub4">كلمات الترنيمة</string>
+
+    <string name="suggest1">البريد الألكترونى </string>
+
+    <!--Contact_Us-->
+    <string name="email">admin@wrwpraises.com</string>
+    <string name="emailrania">raniamofeed@gmail.com</string>
+    <string name="android">Android Design and Developer :Rania Mofeed </string>
+
+
+    //search layout
+
+    <string name="dialog_titleM">المفاتيح الموسيقية</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+    <string name="dialog_titleS">موضوع الترنيمة</string>
+
+    <string-array name="Keys">
+        <item>C</item>
+        <item>Cm</item>
+        <item>D</item>
+        <item>Dm</item>
+        <item>E</item>
+        <item>Em</item>
+        <item>F</item>
+        <item>Fm</item>
+        <item>D#</item>
+        <item>D#m</item>
+        <item>F#</item>
+        <item>F#m</item>
+        <item>G#</item>
+        <item>G#m</item>
+        <item>A#</item>
+        <item>A#m</item>
+    </string-array>
+
+
+    <string-array name="subject_Song">
+        <item>الإعداد</item>
+        <item>الشكر </item>
+        <item>التسبيح</item>
+        <item>التمجيد</item>
+        <item>العبادة والسجود</item>
+        <item>الهتاف</item>
+        <item>الصلاة</item>
+        <item>التوبة والأعتراف</item>
+        <item>نصرة-غلبة-حرية</item>
+        <item>انتظار الرب -طلب وجه الرب </item>
+        <item>الإيمان</item>
+        <item>التكريس</item>
+        <item>النهضة</item>
+        <item>الثقة والثبات في الرب </item>
+        <item>الصليبوالفداء</item>
+        <item>القيامة</item>
+        <item>دم المسيح</item>
+        <item>الأتكال على الرب</item>
+        <item>الالتجاء والاحتماء في الرب </item>
+        <item>التشكيل</item>
+        <item>الاحتياج للرب </item>
+        <item>الكنيسة</item>
+        <item>الوحدة</item>
+        <item>المحبة الأخوية-العائلية</item>
+        <item>الشفاء</item>
+        <item>المجىء الثاني</item>
+        <item>الشهادة والكرازة</item>
+        <item>الروح القدس</item>
+        <item>الكلمة</item>
+        <item>البركة</item>
+        <item>مصر</item>
+        <item>اهتمام اللَه</item>
+        <item>السلام</item>
+        <item>وعود الرب</item>
+        <item>رد المسلوب</item>
+        <item>رفض العالم</item>
+        <item>الفرح</item>
+        <item>ذبيحة الحب</item>
+        <item>البنوية</item>
+        <item>رحمةاللَه</item>
+        <item>ملكوت اللَه</item>
+        <item>الاَيات والعجائب</item>
+        <item>محبة الاَب</item>
+        <item>قدرة الرب</item>
+        <item>عدل الرب</item>
+        <item>أمانة الرب</item>
+        <item>التبعية للرب</item>
+        <item>نعمة الرب</item>
+        <item>سلطان اللَه</item>
+        <item>سلطان الكنيسه</item>
+        <item>فران اللَه</item>
+    </string-array>
+
+    //Forget password
+    <string name="textforegetpassword1">Forget Password..?</string>
+    <string name="foregetpassword">We  just need your Email</string>
+    <string name="textforegetpassword2">We  just need your</string>
+    <string name="textforegetpassword3">to send your password reset</string>
+    <string name="resetpassword">Reset password</string>
+    <string name="eaddress">E-mail Address</string>
+    <string name="list">Name</string>
+    <string name="position">position</string>
+    <string name="Date">Date</string>
+
+
+</resources>
